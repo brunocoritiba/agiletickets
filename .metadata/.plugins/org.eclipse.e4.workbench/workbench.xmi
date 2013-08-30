@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_WpjxwQ5nEeOfca-FVs17Ig" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_Wpjxwg5nEeOfca-FVs17Ig" bindingContexts="_Wpjxyw5nEeOfca-FVs17Ig">
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_Wpjxwg5nEeOfca-FVs17Ig" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_XP1uoA5nEeOfca-FVs17Ig" x="65" y="24" width="1012" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_Wpjxwg5nEeOfca-FVs17Ig" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_XP1uoA5nEeOfca-FVs17Ig" x="65" y="24" width="1008" height="768">
     <tags>topLevel</tags>
-    <children xsi:type="basic:PartSashContainer" xmi:id="_XP1uoA5nEeOfca-FVs17Ig" selectedElement="_XP1uog5nEeOfca-FVs17Ig" horizontal="true">
-      <children xsi:type="advanced:PerspectiveStack" xmi:id="_XP1uoQ5nEeOfca-FVs17Ig" elementId="PerspectiveStack" visible="false" containerData="7500" selectedElement="_Xs-WkA5nEeOfca-FVs17Ig">
-        <tags>Minimized</tags>
-        <tags>MinimizedByZoom</tags>
+    <children xsi:type="basic:PartSashContainer" xmi:id="_XP1uoA5nEeOfca-FVs17Ig" selectedElement="_XP1uoQ5nEeOfca-FVs17Ig" horizontal="true">
+      <children xsi:type="advanced:PerspectiveStack" xmi:id="_XP1uoQ5nEeOfca-FVs17Ig" elementId="PerspectiveStack" containerData="7500" selectedElement="_Xs-WkA5nEeOfca-FVs17Ig">
         <children xsi:type="advanced:Perspective" xmi:id="_Xs-WkA5nEeOfca-FVs17Ig" elementId="org.eclipse.jst.j2ee.J2EEPerspective" selectedElement="_Xs-9oA5nEeOfca-FVs17Ig" label="Java EE" iconURI="platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif">
           <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,"/>
           <tags>persp.actionSet:org.eclipse.mylyn.context.ui.actionSet</tags>
@@ -97,10 +95,9 @@
           </children>
         </children>
       </children>
-      <children xsi:type="basic:PartStack" xmi:id="_XP1uog5nEeOfca-FVs17Ig" elementId="stickyFolderRight" containerData="2500" selectedElement="_XP2VsQ5nEeOfca-FVs17Ig">
-        <tags>Maximized</tags>
+      <children xsi:type="basic:PartStack" xmi:id="_XP1uog5nEeOfca-FVs17Ig" elementId="stickyFolderRight" toBeRendered="false" containerData="2500">
         <children xsi:type="advanced:Placeholder" xmi:id="_XP2VsA5nEeOfca-FVs17Ig" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" ref="_XPz5cA5nEeOfca-FVs17Ig"/>
-        <children xsi:type="advanced:Placeholder" xmi:id="_XP2VsQ5nEeOfca-FVs17Ig" elementId="org.eclipse.ui.internal.introview" ref="_XP1HkA5nEeOfca-FVs17Ig"/>
+        <children xsi:type="advanced:Placeholder" xmi:id="_XP2VsQ5nEeOfca-FVs17Ig" elementId="org.eclipse.ui.internal.introview" toBeRendered="false" ref="_XP1HkA5nEeOfca-FVs17Ig"/>
         <children xsi:type="advanced:Placeholder" xmi:id="_XP2Vsg5nEeOfca-FVs17Ig" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView" toBeRendered="false" ref="_XP1HkQ5nEeOfca-FVs17Ig"/>
       </children>
     </children>
@@ -223,8 +220,8 @@
       <children xsi:type="menu:ToolControl" xmi:id="_YGu6YA5nEeOfca-FVs17Ig" elementId="org.eclipse.ui.HeapStatus" toBeRendered="false" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim"/>
       <children xsi:type="menu:ToolControl" xmi:id="_YG1oEA5nEeOfca-FVs17Ig" elementId="org.eclipse.ui.ProgressBar" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim"/>
     </trimBars>
-    <trimBars xmi:id="_YVDDMA5nEeOfca-FVs17Ig" elementId="org.eclipse.ui.trim.vertical1" side="Left">
-      <children xsi:type="menu:ToolControl" xmi:id="_YVERUA5nEeOfca-FVs17Ig" elementId="PerspectiveStack(minimized)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+    <trimBars xmi:id="_YVDDMA5nEeOfca-FVs17Ig" elementId="org.eclipse.ui.trim.vertical1" toBeRendered="false" side="Left">
+      <children xsi:type="menu:ToolControl" xmi:id="_YVERUA5nEeOfca-FVs17Ig" elementId="PerspectiveStack(minimized)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
       </children>
     </trimBars>
