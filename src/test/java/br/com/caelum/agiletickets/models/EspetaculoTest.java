@@ -155,7 +155,7 @@ public class EspetaculoTest {
 		List<Sessao> sessoes = espetaculo.criaSessoes(inicio, fim, horario,
 				periodicidade);
 
-		Assert.assertEquals(sessoes.size(), 90);
+		Assert.assertEquals(sessoes.size(), 2);
 		for (int i = 0; i < 2; i++) {
 			Assert.assertSame(sessoes.get(i).getEspetaculo(), espetaculo);			
 		}
